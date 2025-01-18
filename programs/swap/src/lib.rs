@@ -1,10 +1,8 @@
 use anchor_lang::prelude::*;
-// use anchor_spl::{
-//     token::{self, Token, Transfer, MintTo,TokenAccount},
-//     associated_token::AssociatedToken,
-// };
-
-use anchor_spl::token_interface::TokenAccount;
+use anchor_spl::{
+    token::{self, Token, Mint, Transfer, MintTo},
+    associated_token::AssociatedToken,
+};
 
 declare_id!("5G8kSEHwJ8ofQdc7MBJee9Wn1XogYuiAK1cesU4K2moc");
 
